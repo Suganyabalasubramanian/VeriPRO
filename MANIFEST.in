@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include veripro *.css
+recursive-include veripro *.csv
+recursive-include veripro *.html
+recursive-include veripro *.ico
+recursive-include veripro *.js
+recursive-include veripro *.json
+recursive-include veripro *.md
+recursive-include veripro *.png
+recursive-include veripro *.py
+recursive-include veripro *.svg
+recursive-include veripro *.txt
+recursive-exclude veripro *.pyc

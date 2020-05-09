@@ -1,0 +1,53 @@
+{
+ "creation": "2020-05-09 15:49:11.996112",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "variable",
+  "column_break_2",
+  "variable_type",
+  "column_break_4",
+  "options"
+ ],
+ "fields": [
+  {
+   "fieldname": "variable",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Variable"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "variable_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Variable Type",
+   "options": "\nText\nSelect\nNumber\nDescription"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:in_list([\"Select\"], doc.variable_type)",
+   "fieldname": "options",
+   "fieldtype": "Data",
+   "label": "Options"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-05-09 15:51:29.472229",
+ "modified_by": "Administrator",
+ "module": "veriPRO",
+ "name": "Check Variables",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

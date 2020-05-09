@@ -1,0 +1,72 @@
+{
+ "autoname": "Check-.####",
+ "creation": "2020-04-29 20:18:39.830545",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "check_name",
+  "column_break_3",
+  "ce_tat",
+  "column_break_4",
+  "check_price",
+  "section_break_6",
+  "check_variables_section"
+ ],
+ "fields": [
+  {
+   "fieldname": "check_name",
+   "fieldtype": "Data",
+   "label": "Check Name"
+  },
+  {
+   "fieldname": "ce_tat",
+   "fieldtype": "Int",
+   "label": "CE TAT"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "check_price",
+   "fieldtype": "Currency",
+   "label": "Check Price"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "check_variables_section",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "modified": "2020-05-09 15:51:52.377367",
+ "modified_by": "Administrator",
+ "module": "veriPRO",
+ "name": "Checks",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
