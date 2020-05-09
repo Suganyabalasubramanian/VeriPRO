@@ -8,6 +8,6 @@ from frappe.model.document import Document
 
 class Checks(Document):
 	def validate(self):
-		add_check = frappe.new_doc(self.checks)
+		add_check = frappe.new_doc(self.check_name)
 		add_check.insert()
 		frappe.errprint(add_check)
