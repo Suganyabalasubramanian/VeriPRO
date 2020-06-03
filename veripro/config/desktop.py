@@ -5,10 +5,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "veripro",
+			"module_name": "veriPRO",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("veripro")
+			"label": _("veriPRO")
 		}
 	]

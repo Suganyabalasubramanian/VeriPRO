@@ -1,0 +1,99 @@
+{
+ "creation": "2020-05-11 18:06:45.377202",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "checks",
+  "check_id",
+  "ca_tat",
+  "ace_tat",
+  "ce_tat",
+  "column_break_5",
+  "pricing_model",
+  "units",
+  "check_price",
+  "check_selling_price",
+  "tcsp"
+ ],
+ "fields": [
+  {
+   "fieldname": "checks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Checks"
+  },
+  {
+   "fieldname": "ca_tat",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "CA TAT"
+  },
+  {
+   "fieldname": "ace_tat",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "ACE TAT"
+  },
+  {
+   "fieldname": "ce_tat",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "CE TAT",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pricing_model",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Pricing Model",
+   "options": "\nFixed\nUnits"
+  },
+  {
+   "fieldname": "units",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Units"
+  },
+  {
+   "fieldname": "check_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Check Price",
+   "read_only": 1
+  },
+  {
+   "fieldname": "check_selling_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Check Selling Price"
+  },
+  {
+   "fieldname": "check_id",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Check ID"
+  },
+  {
+   "fieldname": "tcsp",
+   "fieldtype": "Currency",
+   "label": "Total Check Selling Price",
+   "read_only": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-05-19 16:37:46.914691",
+ "modified_by": "Administrator",
+ "module": "veriPRO",
+ "name": "Checks List",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

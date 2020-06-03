@@ -1,0 +1,153 @@
+{
+ "autoname": "Case-.###",
+ "creation": "2020-05-16 16:37:52.388181",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "check_package",
+  "entry_status",
+  "column_break_3",
+  "batch",
+  "ca_status",
+  "date_of_initiating",
+  "checks_created",
+  "case_information_section",
+  "case_name",
+  "case_gender",
+  "date_of_birth",
+  "father_name",
+  "column_break_11",
+  "email_id",
+  "age",
+  "client_employee_code"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customer",
+   "options": "Customer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "check_package",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Check Package",
+   "options": "Check Package",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "batch",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Batch",
+   "options": "Batch",
+   "read_only": 1
+  },
+  {
+   "fieldname": "case_information_section",
+   "fieldtype": "Section Break",
+   "label": "CASE INFORMATION"
+  },
+  {
+   "fieldname": "case_name",
+   "fieldtype": "Data",
+   "label": "Case Name"
+  },
+  {
+   "fieldname": "case_gender",
+   "fieldtype": "Select",
+   "label": "Case Gender",
+   "options": "\nMale\nFemale"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email ID"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "client_employee_code",
+   "fieldtype": "Data",
+   "label": "Client Employee Code"
+  },
+  {
+   "fieldname": "ca_status",
+   "fieldtype": "Select",
+   "label": "CA STATUS",
+   "options": "\nPending\nCompleted\nInsufficient\nHold\nDrop\nPartially Completed\nGreen\nRed\nAmber"
+  },
+  {
+   "fieldname": "entry_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Entry Status",
+   "options": "\nInsufficient\nDraft\nSubmitted"
+  },
+  {
+   "default": "0",
+   "fieldname": "checks_created",
+   "fieldtype": "Check",
+   "label": "Checks Created"
+  },
+  {
+   "fieldname": "date_of_initiating",
+   "fieldtype": "Date",
+   "label": "Date of Initiating"
+  }
+ ],
+ "modified": "2020-06-03 10:51:13.847844",
+ "modified_by": "Administrator",
+ "module": "veriPRO",
+ "name": "Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
